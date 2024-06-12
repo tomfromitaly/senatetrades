@@ -65,7 +65,7 @@ def load_alphavantage_data(ticker):
     r = requests.get(
         "https://www.alphavantage.co/query",
         params={
-            "apikey": os.getenv("ALPHAVANTAGE_API_KEY"),
+            "apikey": "UMOB5BD6HPFDUHGC",
             "function": "TIME_SERIES_DAILY_ADJUSTED",
             "symbol": ticker,
             "outputsize": "full",
